@@ -539,6 +539,9 @@
   .bg-no-repeat {
     background-repeat: no-repeat;
   }
+  .font-serif {
+    font-family: var(--font-serif);
+  }
   .text-xl {
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
