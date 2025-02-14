@@ -524,11 +524,8 @@
   .h-screen {
     height: 100vh;
   }
-  .bg-blue-400 {
-    background-color: var(--color-blue-400);
-  }
-  .bg-\[url\(assets\/space-background\.jpg\)\] {
-    background-image: url(assets/space-background.jpg);
+  .bg-\[url\(\'\.\.\/assets\/space-background\.jpg\'\)\] {
+    background-image: url('../assets/space-background.jpg');
   }
   .bg-cover {
     background-size: cover;
